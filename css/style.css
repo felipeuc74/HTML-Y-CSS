@@ -1,0 +1,30 @@
+* {margin:0; padding:0;}
+body{ background: url(../img/fondo.jpg) no-repeat top center; 
+    font-family: Arial, Helvetica, sans-serif;}
+#contenedor{width: 960px; margin: 0 auto; }
+
+#cabecera{position: relative; padding-top: 20px;}
+#logo {width: 21%; float: left; color: #FFF; font-size: 34px;  /*hay que asegurarnos que los elemnetos que esten dentro del div del 100%*/
+background: url(../img/nube.png)  no-repeat left center; padding-left: 4%;} /*estoy diciendo que lo centre a la izquierda con el 25% de espacio que tiene*/
+#menu{width: 75%; float: right; text-align: right;}
+#menu ul{ list-style-type: none;}
+#menu ul li{display: inline-block;}
+#menu ul li a{color: #FFF; text-decoration: none; padding: 5px 20px; font-size: 20px;}
+#menu ul li a:hover{ border-bottom: 2px solid ;}
+
+#mensaje{clear: both; height: 340px;  color:#FFF; text-align: center; background: url(../img/nube-mensaje.png) no-repeat center 90px;}
+#mensaje h2{  position: relative ; top:160px; text-transform: uppercase; font-style: normal; letter-spacing: 2px;}
+#mensaje p{  position: relative ; top:170px; letter-spacing: 4px; }
+#mensaje a{ color: #FFF; position: relative ; top:210px; text-decoration: none; border: 3px solid; padding: 15px 32px; }
+
+#principal h1{ color:#f60;  background: url(../img/nube-naranja.png) no-repeat left center;
+padding-left: 30px; margin-bottom: 15px;  letter-spacing: 2px;}
+#principal img{ width: 44.5%;  float: right; margin-left: 25px;  margin-bottom: 20px;}
+#principal p{color:#555; letter-spacing: 1px;  font-size: 16px;  line-height: 1.9; }
+#principal hr{border:none; border-top: 1px solid #CCC ;margin-bottom: 20px; margin-top: 30px;}
+#principal iframe{ width: 100%; height: 250;}
+#principal, #footer {padding: 20px 0;}
+#footer {background: #CCC; text-align: center; position: relative; }
+#footer p{ color:#555; font-size: 12px; }
+#footer img{ position: absolute; right: 20px; top: 50%; margin-top: -8px;}
+#redes{position:fixed; right: 0; top: 59%;}
